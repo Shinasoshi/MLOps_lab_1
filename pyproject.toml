@@ -9,6 +9,12 @@ dependencies = [
     "pydantic>=2.12.5",
     "pydantic-settings>=2.13.1",
     "python-dotenv>=1.2.2",
-    "sops>=1.18",
+    "pyyaml>=6.0.3",
     "xenon>=0.9.3",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.3",
+    "pytest-dotenv>=0.5.2",
 ]
